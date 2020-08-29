@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+      <class name="com.syntax.class01.TestNGIntro">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testOne" duration-ms="6" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testThree" duration-ms="1" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testTwo" duration-ms="2" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- com.syntax.class01.TestNGIntro -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
