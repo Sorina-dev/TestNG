@@ -49,6 +49,11 @@ public class Task3 {
 	    	System.out.println("Logo is NOT displayed. Test fail");
 	    }
 	}
+	@Test(enabled =false) // is to skip executions of a method meanwhile the dev will fix the bug
+	public void bug() {
+		System.out.println("This is a failed test");
+	}
+	
 	
 	@Test (priority = 3) //which test executes first
 	public void passwordEmpty() throws InterruptedException {
