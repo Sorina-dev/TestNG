@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="44" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+  <suite name="Default suite" duration-ms="25328" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:35 EEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="44" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
-      <class name="com.syntax.class01.TestNGIntro">
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testOne" duration-ms="6" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+    <test name="Default test" duration-ms="25328" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:35 EEST">
+      <class name="com.syntax.class01.HrmsTestCases">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="openBrowser" is-config="true" duration-ms="12084" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:21 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testThree" duration-ms="1" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="titleValidation" duration-ms="17" started-at="2020-08-30T09:16:21 EEST" finished-at="2020-08-30T09:16:21 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.syntax.class01.TestNGIntro@6c49835d]" name="testTwo" duration-ms="2" started-at="2020-08-29T18:11:24 EEST" finished-at="2020-08-29T18:11:24 EEST">
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="713" started-at="2020-08-30T09:16:21 EEST" finished-at="2020-08-30T09:16:22 EEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- com.syntax.class01.TestNGIntro -->
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="openBrowser" is-config="true" duration-ms="8374" started-at="2020-08-30T09:16:22 EEST" finished-at="2020-08-30T09:16:30 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="validLogin" duration-ms="2843" started-at="2020-08-30T09:16:30 EEST" finished-at="2020-08-30T09:16:33 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="1257" started-at="2020-08-30T09:16:33 EEST" finished-at="2020-08-30T09:16:35 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.syntax.class01.HrmsTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
