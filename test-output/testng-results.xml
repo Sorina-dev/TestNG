@@ -1,37 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25328" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:35 EEST">
+  <suite name="Default suite" duration-ms="26241" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:17 EEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25328" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:35 EEST">
-      <class name="com.syntax.class01.HrmsTestCases">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="openBrowser" is-config="true" duration-ms="12084" started-at="2020-08-30T09:16:09 EEST" finished-at="2020-08-30T09:16:21 EEST">
+    <test name="Default test" duration-ms="26241" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:17 EEST">
+      <class name="com.class02.Assertion_XmlFile_Grouping.Task">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="openBrowser" is-config="true" duration-ms="9074" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:00 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="titleValidation()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="titleValidation" duration-ms="17" started-at="2020-08-30T09:16:21 EEST" finished-at="2020-08-30T09:16:21 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleValidation -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="713" started-at="2020-08-30T09:16:21 EEST" finished-at="2020-08-30T09:16:22 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="openBrowser" is-config="true" duration-ms="8374" started-at="2020-08-30T09:16:22 EEST" finished-at="2020-08-30T09:16:30 EEST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="validLogin" duration-ms="2843" started-at="2020-08-30T09:16:30 EEST" finished-at="2020-08-30T09:16:33 EEST">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="validLogin" duration-ms="16328" started-at="2020-08-31T14:16:00 EEST" finished-at="2020-08-31T14:16:16 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.syntax.class01.HrmsTestCases@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="1257" started-at="2020-08-30T09:16:33 EEST" finished-at="2020-08-30T09:16:35 EEST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="792" started-at="2020-08-31T14:16:16 EEST" finished-at="2020-08-31T14:16:17 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.syntax.class01.HrmsTestCases -->
+      </class> <!-- com.class02.Assertion_XmlFile_Grouping.Task -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

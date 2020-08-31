@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.syntax.class01.HrmsTestCases">
+      <class name="com.class02.Assertion_XmlFile_Grouping.Task">
         <methods>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="titleValidation"/>
           <include name="validLogin"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.syntax.class01.HrmsTestCases -->
+      </class> <!-- com.class02.Assertion_XmlFile_Grouping.Task -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

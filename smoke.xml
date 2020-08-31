@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suite">
+	<test thread-count="5" name="Smoke Test">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+
+		<packages>
+			<package name="com.class02.Assertion_XmlFile_Grouping" />
+		</packages>
+	</test> <!-- Smoke Test -->
+</suite> <!-- Smoke Suite -->
