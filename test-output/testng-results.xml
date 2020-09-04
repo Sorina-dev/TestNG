@@ -1,25 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="2" total="8" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26241" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:17 EEST">
+  <suite name="Smoke Suite" duration-ms="139929" started-at="2020-09-04T18:39:42 EEST" finished-at="2020-09-04T18:42:02 EEST">
     <groups>
+      <group name="smoke">
+        <method signature="GroupsExample.validLogin()[pri:0, instance:com.class03.DataProvider_Grouping.GroupsExample@396f6598]" name="validLogin" class="com.class03.DataProvider_Grouping.GroupsExample"/>
+        <method signature="Homework.addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" class="com.class03.DataProvider_Grouping.Homework"/>
+      </group> <!-- smoke -->
     </groups>
-    <test name="Default test" duration-ms="26241" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:17 EEST">
-      <class name="com.class02.Assertion_XmlFile_Grouping.Task">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="openBrowser" is-config="true" duration-ms="9074" started-at="2020-08-31T14:15:50 EEST" finished-at="2020-08-31T14:16:00 EEST">
+    <test name="Test" duration-ms="139929" started-at="2020-09-04T18:39:42 EEST" finished-at="2020-09-04T18:42:02 EEST">
+      <class name="com.class03.DataProvider_Grouping.GroupsExample">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.GroupsExample@396f6598]" name="openBrowser" is-config="true" duration-ms="6756" started-at="2020-09-04T18:39:42 EEST" finished-at="2020-09-04T18:39:48 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="validLogin" duration-ms="16328" started-at="2020-08-31T14:16:00 EEST" finished-at="2020-08-31T14:16:16 EEST">
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:com.class03.DataProvider_Grouping.GroupsExample@396f6598]" name="validLogin" duration-ms="2742" started-at="2020-09-04T18:39:48 EEST" finished-at="2020-09-04T18:39:51 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class02.Assertion_XmlFile_Grouping.Task@71bbf57e]" name="closeBrowser" is-config="true" duration-ms="792" started-at="2020-08-31T14:16:16 EEST" finished-at="2020-08-31T14:16:17 EEST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.GroupsExample@396f6598]" name="closeBrowser" is-config="true" duration-ms="720" started-at="2020-09-04T18:39:51 EEST" finished-at="2020-09-04T18:39:52 EEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- com.class02.Assertion_XmlFile_Grouping.Task -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.class03.DataProvider_Grouping.GroupsExample -->
+      <class name="com.class03.DataProvider_Grouping.Homework">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="setUp" is-config="true" duration-ms="9167" started-at="2020-09-04T18:39:52 EEST" finished-at="2020-09-04T18:40:01 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" duration-ms="20298" started-at="2020-09-04T18:40:01 EEST" data-provider="getData" finished-at="2020-09-04T18:40:21 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AnneS]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AnneS123#%&]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Anne]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="quitBrowser" is-config="true" duration-ms="728" started-at="2020-09-04T18:40:21 EEST" finished-at="2020-09-04T18:40:22 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="setUp" is-config="true" duration-ms="8557" started-at="2020-09-04T18:40:22 EEST" finished-at="2020-09-04T18:40:31 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" duration-ms="14065" started-at="2020-09-04T18:40:31 EEST" data-provider="getData" finished-at="2020-09-04T18:40:45 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AndrewL]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AndrewL123#%&*]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Andrew]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Locksmith]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="quitBrowser" is-config="true" duration-ms="751" started-at="2020-09-04T18:40:45 EEST" finished-at="2020-09-04T18:40:46 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="setUp" is-config="true" duration-ms="9657" started-at="2020-09-04T18:40:46 EEST" finished-at="2020-09-04T18:40:55 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" duration-ms="14822" started-at="2020-09-04T18:40:55 EEST" data-provider="getData" finished-at="2020-09-04T18:41:10 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BenjaminM]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ben123#%&$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Benjamin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mathers]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="quitBrowser" is-config="true" duration-ms="902" started-at="2020-09-04T18:41:10 EEST" finished-at="2020-09-04T18:41:11 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="setUp" is-config="true" duration-ms="8508" started-at="2020-09-04T18:41:11 EEST" finished-at="2020-09-04T18:41:19 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" duration-ms="15155" started-at="2020-09-04T18:41:19 EEST" data-provider="getData" finished-at="2020-09-04T18:41:35 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[BeyonceC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BeyonceC123#%&]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Beyonce]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Carter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="quitBrowser" is-config="true" duration-ms="752" started-at="2020-09-04T18:41:35 EEST" finished-at="2020-09-04T18:41:35 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="setUp" is-config="true" duration-ms="9987" started-at="2020-09-04T18:41:35 EEST" finished-at="2020-09-04T18:41:45 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="addEmployee" duration-ms="15376" started-at="2020-09-04T18:41:45 EEST" data-provider="getData" finished-at="2020-09-04T18:42:01 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JessieRo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[JessieR0123#%&//]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Jessie]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rodrigues]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.class03.DataProvider_Grouping.Homework@394e1a0f]" name="quitBrowser" is-config="true" duration-ms="904" started-at="2020-09-04T18:42:01 EEST" finished-at="2020-09-04T18:42:02 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- com.class03.DataProvider_Grouping.Homework -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke Suite -->
 </testng-results>

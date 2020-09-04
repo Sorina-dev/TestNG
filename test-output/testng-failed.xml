@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.class02.Assertion_XmlFile_Grouping.Task">
+      <class name="com.class03.DataProvider_Grouping.Homework">
         <methods>
-          <include name="validLogin"/>
-          <include name="closeBrowser"/>
-          <include name="openBrowser"/>
+          <include name="getEmployee" invocation-numbers="0 1 2 3 4"/>
+          <include name="quitBrowser"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.class02.Assertion_XmlFile_Grouping.Task -->
+      </class> <!-- com.class03.DataProvider_Grouping.Homework -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
